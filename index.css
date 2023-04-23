@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #ff8c8c;
+  min-width: 1200px;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  flex-wrap: wrap;
+}
+
+.profile-container {
+  height: 160px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.image-container {
+  min-width: 100px;
+  flex-shrink: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  color: #18095c;
+  font-weight: 300;
+  height: 100px;
+  width: 100px;
+}
+
+.image-name {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.profile-description-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid #18095c 5px;
+  flex-shrink: 0;
+  width: 700px;
+}
+
+.profile-tittle-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-tittle {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.profile-tittle-role {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.profile-address-container {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  border-left: solid #18095c 5px;
+}
+
+.profile-address-container-description {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.work-container {
+  height: 220px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.work-date-text {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.work-description-container {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 700px;
+}
+
+.work-container-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-one-tittle {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.date-one-paragraph {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.skills-and-awards-container {
+  margin-bottom: 10px;
+  height: 230px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-description-container {
+  justify-content: space-between;
+  display: flex;
+  border-bottom: solid #18095c 5px;
+  border-top: solid #18095c 5px;
+  flex-shrink: 0;
+  width: 700px;
+}
+
+.skills-image-conateiner {
+  min-width: 100px;
+  flex-shrink: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.skills-container {
+  display: flex;
+  margin-top: 25px;
+}
+
+.skills-list-container {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.skills {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.feed-back-container {
+  list-style: none;
+}
+
+.feed-back-items {
+  display: flex;
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 5px;
+  font-weight: 300;
+  height: 25px;
+}
+
+.dots {
+  background-color: #18095c;
+  height: 12px;
+  width: 12px;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+.skills-completion-description-container {
+  border-left: solid 5px #18095c;
+  padding-top: 25px;
+}
+
+.skills-completion-container-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.skills-completion-container-list-items {
+  display: flex;
+}
+
+.skills-completion-date {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.skill-description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-description-container-tittle {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.skill-description-container-paragraph {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.interest-container {
+  height: 270px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.interest-images-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.interest-images-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 5px #18095c;
+  width: 700px;
+  flex-shrink: 0;
+  padding-bottom: 65px;
+}
+
+.image-items {
+  background-color: #18095c;
+  font-weight: 300;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.interest-image {
+  height: 70px;
+  width: 70px;
+  color: #ff8c8c;
+  margin-top: 13px;
+}
+
+.education-container {
+  height: 160px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.edcation-description-container {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 700px;
+  border-bottom: solid 5px #18095c;
+}
+
+.education-container-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-date-text {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.education-container-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-one-tittle {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.date-one-paragraph {
+  color: #18095c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.interest-images-tittle {
+  font-family: "Robtot";
+  font-size: 26px;
+  color: #18095c;
+  font-weight: 300;
+  margin-top: 30px;
+}
